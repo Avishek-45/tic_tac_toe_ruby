@@ -12,8 +12,9 @@ class Board
     @board = ["","","","","","","","",""]
   end
 
-  def board_update()
-
+  def board_update(position , symbol)
+      @board[position] = symbol
+      game_board_display(@board)
   end
   
   #this method displays updated board in game
@@ -28,4 +29,3 @@ class Board
 
 end 
 
-board = Board.new

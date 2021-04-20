@@ -12,6 +12,5 @@ class Player
 
 end
 
-players = Player.new
 
 
